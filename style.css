@@ -5,7 +5,8 @@ form{
 
 .tier-container{
     border: 2px solid black;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
     margin-bottom: 10px;
 }
 
@@ -17,7 +18,11 @@ form{
     justify-content: center;
     align-items: center;
     padding: 5px;
-    width: 300px;
+    
+}
+
+.tier-items{
+    display: flex;
 }
 
 #non-tier-section{
